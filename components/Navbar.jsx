@@ -48,7 +48,7 @@ const Navbar = () => {
           {user ? (
             <UserButton>
               <UserButton.MenuItems>
-                <UserButton.Action label="Cart" labelIcon={<CartIcon />} onClick={() => router.push('/cart')} />
+                <UserButton.Action label="Cart\" labelIcon={<CartIcon />} onClick={() => router.push('/cart')} />
                 <UserButton.Action label="My Orders" labelIcon={<BagIcon />} onClick={() => router.push('/my-orders')} />
               </UserButton.MenuItems>
             </UserButton>
